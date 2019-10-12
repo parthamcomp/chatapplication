@@ -1,0 +1,45 @@
+body {
+    padding: 25px 0 0 0;
+    margin: 0;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+  }
+
+  .btn {
+      font-family: 'Poppins', sans-serif;
+  }
+
+  input[type="text"]
+  {
+      font-family: 'Poppins', sans-serif;
+  }
+
+  #message-container {
+    width: 80%;
+    max-width: 1200px;
+  }
+  #message-container div {
+    background-color: #26A599;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+  }
+  #message-container div:nth-child(2n) {
+    background-color:#F1EFF0;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 25px;
+  }
+  #send-container {
+    position: fixed;
+    padding-bottom: 30px;
+    bottom: 0;
+    background-color: white;
+    max-width: 1200px;
+    width: 80%;
+    display: flex;
+  }
+  #message-input {
+    flex-grow: 1;
+  }
